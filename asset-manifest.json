@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my.gh.page/static/css/main.dcc5d813.chunk.css",
+    "main.js": "/my.gh.page/static/js/main.4fb442b2.chunk.js",
+    "main.js.map": "/my.gh.page/static/js/main.4fb442b2.chunk.js.map",
+    "runtime-main.js": "/my.gh.page/static/js/runtime-main.4808754f.js",
+    "runtime-main.js.map": "/my.gh.page/static/js/runtime-main.4808754f.js.map",
+    "static/js/2.3da080ca.chunk.js": "/my.gh.page/static/js/2.3da080ca.chunk.js",
+    "static/js/2.3da080ca.chunk.js.map": "/my.gh.page/static/js/2.3da080ca.chunk.js.map",
+    "index.html": "/my.gh.page/index.html",
+    "precache-manifest.91f2e0ee56ca921c2e527d18b28495aa.js": "/my.gh.page/precache-manifest.91f2e0ee56ca921c2e527d18b28495aa.js",
+    "service-worker.js": "/my.gh.page/service-worker.js",
+    "static/css/main.dcc5d813.chunk.css.map": "/my.gh.page/static/css/main.dcc5d813.chunk.css.map",
+    "static/js/2.3da080ca.chunk.js.LICENSE.txt": "/my.gh.page/static/js/2.3da080ca.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/my.gh.page/static/media/ConfigCondensed-Light.6a7b8249.otf",
+    "static/media/github.png": "/my.gh.page/static/media/github.1b9b9f71.png",
+    "static/media/medium.png": "/my.gh.page/static/media/medium.518048d1.png",
+    "static/media/roundprofilepic.png": "/my.gh.page/static/media/roundprofilepic.5863d425.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4808754f.js",
+    "static/js/2.3da080ca.chunk.js",
+    "static/css/main.dcc5d813.chunk.css",
+    "static/js/main.4fb442b2.chunk.js"
+  ]
+}
