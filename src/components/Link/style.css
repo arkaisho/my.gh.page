@@ -8,14 +8,14 @@
 
 .link {
     margin-left: 10px;
-    line-height: 25px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'ConfigCondensed';
     color: #c2c2c2;
     text-decoration: none;
+    transition: 125ms;
 }
 .link:hover{
     color:white;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
