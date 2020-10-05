@@ -1,0 +1,21 @@
+@font-face{
+    font-family: 'ConfigCondensed';
+    src:url('../../fonts/ConfigCondensed-Light.otf');
+}@font-face{
+    font-family: 'ConfigCondensedBold';
+    src:url('../../fonts/ConfigCondensed-Bold.otf');
+}
+
+a {
+    margin-left: 10px;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 'ConfigCondensed';
+    color: #c2c2c2;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+}
