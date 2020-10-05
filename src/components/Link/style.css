@@ -6,7 +6,7 @@
     src:url('../../fonts/ConfigCondensed-Bold.otf');
 }
 
-a {
+.link {
     margin-left: 10px;
     line-height: 25px;
     font-size: 20px;
@@ -14,7 +14,7 @@ a {
     color: #c2c2c2;
     text-decoration: none;
 }
-a:hover{
+.link:hover{
     color:white;
     font-size: 25px;
     font-weight: bold;
