@@ -21,7 +21,6 @@ let dados = {
   }
 }
 
-const name_style={color:"white",fontSize:"50px",lineHeight:"10px",marginLeft:"10px",fontFamily:"ConfigCondensed",fontWeight:"bolder"}
 const appStyle={position:"absolute",height:"100%",display:"flex",flexDirection:"row",alignItems:"center",marginLeft:"10%"}
 
 export default class App extends React.Component{
@@ -30,8 +29,8 @@ export default class App extends React.Component{
       <div style={appStyle}>
           <div>
             <ProfilePic/>
-            <div style={{display:"flex",flexDirection:"column",justifyContent:"center",float:"right",textAlign:"left",padding:"10px"}}>
-              <h2 style={name_style}>João Pedro</h2>
+            <div className="information" >
+              <h2 className="profile-name">João Pedro</h2>
               <div style={{marginLeft:"10px"}}>
                 <Link icon={github} info={dados.github}/><br/>
                 <Link icon={linkedin} info={dados.linkedin} /><br/>

@@ -4,7 +4,7 @@ import './style.css'
 export default class Link extends React.Component{
     render(){
         return(
-            <div style={{height:"30px"}}>
+            <div className="link-container">
                 <img className="icon" alt="icon" src={this.props.icon}/><a className="link" href={this.props.info.link}>{this.props.info.text}</a>
             </div>
         );

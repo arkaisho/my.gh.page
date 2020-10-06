@@ -1,6 +1,21 @@
-.profileImage{
+@media only screen and (orientation: portrait) {
+  .profileImage {
+    height: 450px;
+    width: 450px;
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .profileImage {
     height: 250px;
-    border-radius: 100%;
-    box-shadow: 5px 5px 20px black;
-    border: 3px solid #1E2942;
+    width: 250px;
+  }
+}
+
+.profileImage {
+  border-radius: 100%;
+  box-shadow: 5px 5px 20px black;
+  border: 3px solid #1e2942;
+  float: left;
 }
