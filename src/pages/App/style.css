@@ -8,8 +8,11 @@
 }
 
 @media only screen and (orientation: portrait) {
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+  }
   .information {
-    display: block;
     flex-direction: column;
     justify-content: "center";
     float: bottom;
@@ -17,33 +20,47 @@
   }
   .profile-name {
     font-size: 110px;
+    line-height: 110px;
   }
 }
 
 @media only screen and (orientation: landscape) {
+  .profile-container {
+    display: flex;
+    flex-direction: row;
+  }
   .information {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    float: right;
-    text-align: left;
+    justify-content:center ;
   }
   .profile-name {
     font-size: 50px;
+    line-height: 50px;
   }
+}
+
+.link-list {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .profile-name {
   color: white;
-  line-height: 10px;
-  margin-left: 10px;
+  margin-left: 15px;
   font-family: "ConfigCondensed";
   font-weight: bolder;
 }
 
 body {
-  height: 100%;
-  margin: 0px;
   background-image: url("../../assets/images/network.jpeg");
   background-size: cover;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  box-sizing: border-box;
 }
