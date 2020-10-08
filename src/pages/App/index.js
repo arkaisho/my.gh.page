@@ -1,9 +1,9 @@
 import React from 'react';
 import ProfilePic from "../../components/ProfilePic/ProfilePic";
 import Link from "../../components/Link/Link";
-import github from "../../assets/github.png";
-import linkedin from "../../assets/linkedin.png";
-import medium from "../../assets/medium.png";
+import github from "../../assets/icons/github.png";
+import linkedin from "../../assets/icons/linkedin.png";
+import medium from "../../assets/icons/medium.png";
 import './style.css'
 
 let dados = {
